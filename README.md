@@ -20,7 +20,7 @@ I combine an industrial background in advanced euv lithography with modern compu
     *   **Interferometric Principles:** Modeling spatial shearing setups using an object-side grating and an out-of-focus image-side grating to capture phase derivative fringes.
     *   **Near-Field Non-Periodic Propagation:** Leveraging **SVD-accelerated convolution integrals** instead of standard FFTs to forward-propagate fields in the Fresnel regime past the image-plane grating to the near-field sensor.
     *   **Finite Boundary Analytics:** Accurately simulating the diffraction effects of physical, finite-sized markers and non-periodic structures, eliminating the infinite-grating assumptions and edge artifacts inherent to FFT-based setups.
-    *   **Sensitivity Matrix & Tweaking:** A forward perturbation simulator that introduces exact mechanical/optical alignment errors along the beam path to quantify the theoretical measurement accuracy limits of the sensor.
+    *   **Systematic Error Modeling:** A forward perturbation simulator that tracks deviations from ideal interferometric theory—including 2D/3D marker edge imperfections, residual source spatial coherence, laser speckle noise, and spatial cross-talk from unwanted high-order pinhole diffraction.
 
 
 *   **C. Mathematical Inverse Optimization (OPC / ILT)**
